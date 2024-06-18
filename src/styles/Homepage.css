@@ -1,0 +1,42 @@
+.home-page {
+    height: 100vh;
+    background-color: var(--background-color); 
+}
+  
+.profile-image img {
+width: 100%;
+max-width: 200px;
+border-radius: 50%;
+padding: auto;
+}
+
+
+.info-wrapper {
+padding-left: 5%;
+}
+
+.name {
+font-size: 2.5rem;
+font-weight: bold;
+margin-top: 20px;
+color: var(--text-color);
+}
+
+.position {
+font-size: 1.5rem;
+font-weight: 600;
+color: var(--secondary-text-color); 
+}
+
+.description {
+font-size: 1.2rem;
+line-height: 1.6;
+margin-top: 20px;
+color: var(--text-color);
+}
+
+
+.download-resume {
+    margin-top: 20px; /* Ajusta el margen superior del botón */
+    color: #0000; /* Color del texto del botón */
+}
