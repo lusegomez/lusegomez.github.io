@@ -1,5 +1,5 @@
-.home-page {
-    height: 70vh;
+.aboutme {
+    height: 100vh;
     background-color: var(--background-color); 
 }
   
@@ -11,18 +11,8 @@ padding: auto;
 }
 
 
-.info-wrapper {
-padding-left: 5%;
-}
 
-.name {
-font-size: 2.5rem;
-font-weight: bold;
-margin-top: 20px;
-color: var(--text-color);
-}
-
-.position {
+.aboutme-title {
 font-size: 1.5rem;
 font-weight: 600;
 color: var(--secondary-text-color); 
