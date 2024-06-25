@@ -24,9 +24,3 @@ line-height: 1.6;
 margin-top: 20px;
 color: var(--text-color);
 }
-
-
-.download-resume {
-    margin-top: 20px; /* Ajusta el margen superior del botón */
-    color: #0000; /* Color del texto del botón */
-}

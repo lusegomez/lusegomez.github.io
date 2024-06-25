@@ -1,0 +1,40 @@
+.projects {
+    height: 100vh;
+    background-color: var(--background-color); 
+}
+  
+
+.projects-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--secondary-text-color); 
+    margin-bottom: 40px;
+}
+
+.btn-primary-custom {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    color: #fff;
+    flex: 1; 
+    margin: 0 5px; 
+}
+
+.btn-primary-custom:hover,
+.btn-primary-custom:focus,
+.btn-primary-custom:active {
+    background-color: darken(var(--primary-color), 10%);
+    border-color: darken(var(--primary-color), 10%);
+}
+
+.project-categories {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto; 
+    width: 40%; 
+}
+.project-category-item {
+    margin-bottom: 10px;
+}

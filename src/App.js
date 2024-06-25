@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import HomePage from './components/Homepage';
 import Aboutme from './components/Aboutme.js';
+import Projects from './components/Projects.js';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/aboutme" element={<Aboutme />} />
+          <Route path="/projects" element={<Projects />} />
         </Routes>
           
       </div>
