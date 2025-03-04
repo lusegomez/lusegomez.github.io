@@ -16,6 +16,7 @@ const MyNavbar = () => {
           <Nav.Link as={Link} to="/" className='nav-item'>Home</Nav.Link>
           <Nav.Link as={Link} to="/aboutme" className='nav-item'>About me</Nav.Link>
           <Nav.Link as={Link} to="/projects" className='nav-item'>Projects</Nav.Link>
+          <Nav.Link as={Link} to="/education" className='nav-item'>Education</Nav.Link>
         </Nav>
         <Nav>
           <Nav.Link href="https://www.linkedin.com/in/lucas-gomez-00" target="_blank" className="linkedin-btn">

@@ -1,6 +1,4 @@
 .navbar {
-  background-color: var(--background-color) !important;
-  /* background-color: 0 !important; */
   color: var(--text-color) !important;
 }
 

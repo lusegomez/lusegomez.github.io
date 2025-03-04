@@ -1,11 +1,10 @@
 .projects {
     height: 100vh;
-    background-color: var(--background-color); 
 }
   
 
 .projects-title {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 600;
     color: var(--secondary-text-color); 
     margin-bottom: 40px;

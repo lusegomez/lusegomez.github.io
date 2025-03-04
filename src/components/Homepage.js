@@ -2,23 +2,23 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import '../styles/Homepage.css'; 
 
-import profilePicture from '../assets/images/profile.jpeg';
+import profilePicture from '../assets/images/profile.jpg';
 
 const HomePage = () => {
   return (
     <div className="home-page" style={{ marginTop: '10%' }}>
       <Container className='d-flex justify-content-center align-items-center'>
         <Row>
-          <Col md={2} className="d-flex justify-content-center">
+          <Col md={4} className="d-flex justify-content-center">
             <div className="profile-image">
-              <img src={profilePicture} alt="Profile picture" />
+              <img src={profilePicture} alt="Profile picture"/>
             </div>
           </Col>
-          <Col md={10} className="bio-section">
+          <Col md={8} className="bio-section">
             <div className='info-wrapper'>
                 <h1 className="name">Lucas Gomez</h1>
-                <p className="position">Software Development Engineer</p>
-                <p className="description">I'm a Software Development Engineer with a deep passion for Artificial Intelligence. Currently in my final year studying Computer Engineering at Instituto Tecnológico de Buenos Aires (ITBA), I specialize in Python and have hands-on experience developing AI models to solve problems.</p>
+                <p className="position">Computer Engineer</p>
+                <p className="description">Graduated with a Bachelor's Degree in Computer Engineering, with a strong foundation in various programming languages and technologies. Passionate about developing innovative solutions, with interests spanning backend development, cloud technologies, and software engineering. Excited to work on challenging projects that drive efficiency and scalability.</p>
             </div>
             
           </Col>

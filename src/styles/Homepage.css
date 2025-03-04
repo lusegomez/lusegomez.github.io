@@ -1,11 +1,14 @@
 .home-page {
     height: 70vh;
-    background-color: var(--background-color); 
 }
   
+.profile-image {
+    width: 100%;
+}
 .profile-image img {
 width: 100%;
-max-width: 200px;
+max-width: 500px;
+height: auto;
 border-radius: 50%;
 padding: auto;
 }
@@ -13,6 +16,7 @@ padding: auto;
 
 .info-wrapper {
 padding-left: 5%;
+text-align: center;
 }
 
 .name {
@@ -37,6 +41,6 @@ color: var(--text-color);
 
 
 .download-resume {
-    margin-top: 20px; /* Ajusta el margen superior del botón */
-    color: #0000; /* Color del texto del botón */
+    margin-top: 20px; 
+    color: #0000; 
 }

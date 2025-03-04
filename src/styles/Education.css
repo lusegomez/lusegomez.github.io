@@ -1,0 +1,57 @@
+.education {
+    height: 100%;
+    text-align: center;
+}
+
+.education-title {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--secondary-text-color); 
+}
+.education-institution {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--secondary-text-color); 
+}
+
+.card-img-top {
+    width: 100%;
+    height: 10vw;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.description {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-top: 20px;
+    color: var(--text-color);
+}
+
+
+.education-card-subtitle {
+font-size: 18px;
+font-weight: 500;
+text-align: center;
+color: #555;
+margin-bottom: 15px;
+}
+  
+.education-section {
+margin-top: 20px;
+}
+
+.section-heading {
+font-size: 24px;
+font-weight: 900;
+color: var(--secondary-color);
+margin-bottom: 10px;
+}
+
+.section-content {
+list-style-type: none;
+padding: 0;
+}
+  
+.content-title {
+    font-weight: bold;
+}

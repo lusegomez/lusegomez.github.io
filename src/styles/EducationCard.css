@@ -1,0 +1,40 @@
+.education-card {
+    background-color: var(--background-color) !important;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px 0;
+    border-color: var(--primary-color) !important;
+}
+
+.education-card-title {
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0px !important;
+    color: var(--text-color) !important;
+}
+.education-card-text {
+    font-size: large;
+}
+
+.education-card .education-button {
+    margin-top: 5px;
+    background-color: var(--background-color);
+    border-color: var(--primary-color);
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.education-card .education-button:hover {
+    transition-duration: 0.1s;
+    border-color: var(--secondary-text-color);
+    background-color: var(--secondary-text-color);
+    color: var(--background-color);
+}
+
+.education-card .education-button:focus {
+    border-color: var(--secondary-color);
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+}
